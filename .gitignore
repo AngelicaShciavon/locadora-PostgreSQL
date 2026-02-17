@@ -1,0 +1,77 @@
+# Sistema operacional / arquivos do Mac/Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Editores e IDEs comuns
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.swp
+*~
+*.bak
+*.tmp
+
+# MySQL Workbench e ferramentas de modelagem
+*.mwb~
+*.mwb.bak
+*.sql~
+*.log
+MySQL Workbench/
+
+# Dumps e backups de banco (nunca suba dumps reais!)
+*.sql.gz
+*.sql.zip
+*.dump
+*.sql.bak
+dump/
+backups/
+*.sql_dump
+
+# Arquivos de configuração sensíveis (se tiver .env, credenciais, etc.)
+.env
+.env.local
+.env.development
+.env.production
+*.env.*
+config/database.yml
+credentials.json
+
+# Logs e temporários gerais
+*.log
+logs/
+temp/
+tmp/
+*.cache
+.cache/
+
+# Pastas de build ou output (se futuramente tiver scripts gerados)
+dist/
+build/
+out/
+
+# Arquivos grandes ou binários que não precisam de versionamento
+*.pdf   # ← se não quiser versionar os PDFs (mas se quiser, remova essa linha)
+*.png   # ← idem para imagens (ou remova se quiser commitar)
+*.jpg
+*.jpeg
+
+# PostgreSQL específicos (se gerar arquivos locais)
+postgresql.auto.conf
+postgresql.conf.sample
+pg_hba.conf.sample
+
+# MySQL específicos
+my.cnf
+my.ini
+
+# Outros comuns em projetos SQL
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
