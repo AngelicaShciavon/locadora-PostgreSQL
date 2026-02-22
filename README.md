@@ -11,7 +11,7 @@ Inclui scripts de criação de schema, inserção de dados iniciais e consultas 
 
 ## Estrutura do Projeto
 locadora/
-├── README.md                  ← Este arquivo
+├── README.md                  ← Este arquivo 
 ├── .gitignore
 │
 ├── docs/                      ← Documentação visual
